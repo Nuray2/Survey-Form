@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <title>Spotify</title>
+</head>
+<body>
+  <h1 id="title">Do you want to renew Spotify Premium?</h1>
+  <p id="description">With the first purchase - free for 3
+month.</p>
+
+<form id="survey-form">
+  
+  <label id="name-label">Name</label>
+  <label id="email-label">Email</label>
+  <label id="number-label">Number</label>
+  <input id="name" type="text" placeholder="Enter your name" required/>
+  <input id="email" type="email" placeholder="Enter your email" required/>
+  <input id="number" type="number" placeholder="Enter your number" max="20" min="1">
+
+  <select id="dropdown">
+    <option>Premium Individual</option>
+    <option>Premium Duo</option>
+    <option>Premium Family</option>
+    <option>Premium Student</option>
+
+
+</select>
+
+<input type="radio" value="Male" name="gender">
+Male
+<input type="radio" value="Female" name="gender">
+Female
+
+Which version have you used?
+
+<input type="checkbox" value="oldvers">
+Premium Individual
+<input type="checkbox" value="oldvers">
+Premium Duo
+<input type="checkbox" value="oldvers">
+Premium Family
+<input type="checkbox" value="oldvers">
+Premium Student
+
+<textarea></textarea>
+<button id="submit" type="submit">Submit</button>
+
+
+</form>
+</body>
+</html>
